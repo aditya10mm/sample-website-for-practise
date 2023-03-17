@@ -8,7 +8,8 @@ pipeline {
         }
         stage('deploying') { 
             steps {
-                sh 'ssh -i '
+                sh 'ls'
+                sh 'pwd'
                 
                 
             }
