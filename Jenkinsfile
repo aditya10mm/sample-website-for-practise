@@ -10,7 +10,7 @@ pipeline {
             steps {
                 sh 'ls'
                 sh 'pwd'
-                sh 'scp -r *.html root@13.233.8.118:/home'
+                sh 'scp -r $(pwd)/* root@13.233.8.118:/home'
                 
                 
             }
