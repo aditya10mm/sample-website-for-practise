@@ -11,7 +11,6 @@ pipeline {
                 sh 'ls'
                 sh 'pwd'
                 sh 'cp $(pwd) . scp -r root@172.21.242.50:/home'
-                
             }
         }        
     }
